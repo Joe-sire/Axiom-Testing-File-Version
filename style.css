@@ -71,6 +71,18 @@ h1 {
     margin-top: 20px; /* Adjust the top margin as needed */
     border-radius: 15px; /* Rounded corners */
 }
+.box3-link {
+    display: inline-block;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    transform: translate(-410px, 60px); /* 1st - Left, + Right. 2nd - Up, + Down */
+    position: relative;
+}
+.box3-button {
+    width: 540px; /* Adjust the size as needed */
+    height: 225px; /* DONT adjust the height */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    border-radius: 15px; /* Rounded corners */
+}
 .underline {
     text-decoration: underline;
 }
