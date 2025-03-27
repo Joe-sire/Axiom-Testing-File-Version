@@ -11,9 +11,9 @@ body {
     font-family: montserrat;
 }
 h1 {
-    font-size: 6em; /* Adjust the size as needed */
+    font-size: 6em;
     text-align: center;
-    margin-top: 70px; /* Adjust the top margin as needed */
+    margin-top: 70px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .content {
@@ -25,63 +25,81 @@ h1 {
 }
 .discord-link {
     display: inline-block;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px;
     transform: translate(870px, -150px); /* 1st - Left, + Right. 2nd - Up, + Down */
     position: relative;
 }
 .discord-button {
-    width: 200px; /* Adjust the size as needed */
-    height: auto; /* DONT adjust the height */
-    margin-top: 20px; /* Adjust the top margin as needed */
-    border-radius: 15px; /* Rounded corners */
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 .CC-link {
     display: inline-block;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px;
     transform: translate(110px, 60px); /* 1st - Left, + Right. 2nd - Up, + Down */
     position: relative;
 }
 .CC-button {
-    width: 200px; /* Adjust the size as needed */
-    height: 225px; /* DONT adjust the height */
-    margin-top: 20px; /* Adjust the top margin as needed */
-    border-radius: 15px; /* Rounded corners */
+    width: 200px;
+    height: 225px;
+    margin-top: 20px;
+    border-radius: 15px;
 }
-.box-link {
+.plugins-link {
     display: inline-block;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px;
     transform: translate(-90px, -150px); /* 1st - Left, + Right. 2nd - Up, + Down */
     position: relative;
 }
-.box-button {
-    width: 540px; /* Adjust the size as needed */
-    height: 155px; /* DONT adjust the height */
-    margin-top: 20px; /* Adjust the top margin as needed */
-    border-radius: 15px; /* Rounded corners */
+.plugins-button {
+    width: 540px;
+    height: 155px;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 .box2-link {
     display: inline-block;
-    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-top: 20px;
     transform: translate(-410px, 60px); /* 1st - Left, + Right. 2nd - Up, + Down */
     position: relative;
 }
 .box2-button {
-    width: 540px; /* Adjust the size as needed */
-    height: 225px; /* DONT adjust the height */
-    margin-top: 20px; /* Adjust the top margin as needed */
-    border-radius: 15px; /* Rounded corners */
+    width: 540px;
+    height: 225px;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 .box3-link {
     display: inline-block;
-    margin-top: 20px; /* Adjust the top margin as needed */
-    transform: translate(-410px, 60px); /* 1st - Left, + Right. 2nd - Up, + Down */
+    margin-top: 20px;
+    transform: translate(90px, -250px); /* 1st - Left, + Right. 2nd - Up, + Down */
     position: relative;
 }
+.box3-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
 .box3-button {
-    width: 540px; /* Adjust the size as needed */
-    height: 225px; /* DONT adjust the height */
-    margin-top: 20px; /* Adjust the top margin as needed */
-    border-radius: 15px; /* Rounded corners */
+    display: block;
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.box3-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(75%, -1250%);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    pointer-events: none;
 }
 .underline {
     text-decoration: underline;
