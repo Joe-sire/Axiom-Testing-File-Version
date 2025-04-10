@@ -181,10 +181,12 @@ h1 {
 .white-box {
     background-color: white;
     border: 2px solid white;
+    width: 36%;
 }
 .purple-box {
     background-color: purple;
     border: 2px solid purple;
+    width: 36%;
 }
 .box-image {
     width: 200px;
@@ -225,4 +227,11 @@ h1 {
     width: 100%;
     margin: 0 auto;
     transform: translateX(-75px);
+}
+.discord-button,
+.CC-button,
+.plugins-button,
+.box2-button {
+    border: 2px solid white;
+    box-sizing: border-box;
 }
