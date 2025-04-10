@@ -103,7 +103,7 @@ h1 {
 .goBack-link {
     display: inline-block;
     margin-top: 20px;
-    transform: translate(90px, -250px); /* 1st - Left, + Right. 2nd - Up, + Down */
+    transform: translate(90px, -240px); /* 1st - Left, + Right. 2nd - Up, + Down */
     position: relative;
 }
 .goBack-container {
@@ -111,19 +111,17 @@ h1 {
     display: inline-block;
     text-align: center;
 }
-
 .goBack-button {
     display: block;
     width: 150px;
     height: auto;
     border-radius: 15px;
 }
-
 .goBack-text {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(80%, -1250%);
+    transform: translate(80%, -1200%);
     color: white;
     font-size: 1.2em;
     font-weight: bold;
@@ -170,16 +168,28 @@ h1 {
     font-size: 1.2em;
     font-weight: bold;
 }
-.red-box {
-    background-color: red;
-    color: white;
-    border: 2px solid red;
-    transform: translate(200px, 200px);
+.colour-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.white-box {
+    background-color: white;
+    border: 2px solid white;
 }
 .purple-box {
     background-color: purple;
-    color: white;
     border: 2px solid purple;
+}
+.box-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
 }
 .underline {
     text-decoration: underline;
@@ -206,4 +216,13 @@ h1 {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    transform: translateX(-75px);
 }
