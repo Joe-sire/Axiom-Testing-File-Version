@@ -39,6 +39,13 @@ h1 {
     background-repeat: repeat;
 }
 
+.modes-page {
+    background-image: url('Images/bolck4.webp');
+    background-size: 4em 4em;
+    background-position: center;
+    background-repeat: repeat;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
